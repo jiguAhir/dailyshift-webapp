@@ -1,0 +1,67 @@
+body {
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    background-color: lavender;
+}
+
+nav a {
+    width: 100%;
+}
+
+#myform {
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+}
+
+#myform input, #myform select {
+    margin: 5px;
+}
+
+#btns {
+    padding: 10px;
+}
+
+#back {
+    margin: 10px;
+    padding: 5px 30px;
+}
+
+#result {
+    padding: 5px;
+}
+
+#history {
+    margin-top: 16px;
+}
+
+#history table tr {
+    text-align: left;
+}
+
+#data_table table {
+    margin-left: 5%;
+}
+
+#table-header {
+    text-align: center;
+    padding: 20px;
+}
+  
+#table-header p {
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    font-size: .875em;
+    color: #6c757d;
+    margin-top: auto;
+}
